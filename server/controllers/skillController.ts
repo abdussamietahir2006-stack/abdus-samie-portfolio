@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Skill from "../models/Skill.ts";
+import Skill from "../models/Skill";
 import mongoose from "mongoose";
 
 const FALLBACK_SKILLS = [

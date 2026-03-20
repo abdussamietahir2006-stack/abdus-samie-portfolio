@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import Project from "../models/Project.ts";
+import Project from "../models/Project";
 
 const FALLBACK_PROJECTS = [
   {

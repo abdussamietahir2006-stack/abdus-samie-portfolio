@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import Contact from "../models/Contact.ts";
+import Contact from "../models/Contact";
 
 export const postContact = async (req: Request, res: Response) => {
   if (mongoose.connection.readyState !== 1) {

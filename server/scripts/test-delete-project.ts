@@ -3,12 +3,12 @@ import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
-import Project from "../models/Project.ts";
-import { connectDB } from "../config/db.ts";
+import Project from "../models/Project";
+import { connectDB } from "../config/db";
 import axios from "axios";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname("/test-delete-project.js");
+const __filename = __dirname + "/test-delete-project.js"; // Replace import.meta.url
 
 // Load environment variables
 dotenv.config({

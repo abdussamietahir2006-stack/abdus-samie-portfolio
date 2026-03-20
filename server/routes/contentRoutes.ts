@@ -1,6 +1,6 @@
 import express from "express";
-import { getPageContent, updateContent } from "../controllers/contentController.ts";
-import { protect } from "../middleware/authMiddleware.ts";
+import { getPageContent, updateContent } from "../controllers/contentController";
+import { protect } from "../middleware/authMiddleware";
 
 const router = express.Router();
 

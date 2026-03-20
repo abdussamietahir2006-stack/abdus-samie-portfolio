@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 import dotenv from "dotenv";
 import path from "path";
-import AdminUser from "../models/AdminUser.ts";
-import { connectDB } from "../config/db.ts";
+import AdminUser from "../models/AdminUser";
+import { connectDB } from "../config/db";
 
 dotenv.config();
 

@@ -1,6 +1,6 @@
 import express from "express";
-import { postContact, getContacts, deleteContact } from "../controllers/contactController.ts";
-import { protect } from "../middleware/authMiddleware.ts";
+import { postContact, getContacts, deleteContact } from "../controllers/contactController";
+import { protect } from "../middleware/authMiddleware";
 
 const router = express.Router();
 

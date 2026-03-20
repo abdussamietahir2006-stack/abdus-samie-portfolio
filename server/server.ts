@@ -4,12 +4,7 @@ dotenv.config();
 import express from "express";
 import path from "path";
 import cors from "cors";
-import { fileURLToPath } from "url";
-
-// Fix __dirname
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+const __dirname = process.cwd();
 // Debug (optional)
 console.log("ENV TEST:", process.env.MONGO_URI);
 

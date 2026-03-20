@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Skill from "../models/Skill.ts";
-import { connectDB } from "../config/db.ts";
+import Skill from "../models/Skill";
+import { connectDB } from "../config/db";
 
 dotenv.config();
 

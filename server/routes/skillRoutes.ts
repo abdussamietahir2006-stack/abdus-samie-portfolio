@@ -1,6 +1,6 @@
 import express from "express";
-import { getSkills, createSkill, updateSkill, deleteSkill } from "../controllers/skillController.ts";
-import { protect } from "../middleware/authMiddleware.ts";
+import { getSkills, createSkill, updateSkill, deleteSkill } from "../controllers/skillController";
+import { protect } from "../middleware/authMiddleware";
 
 const router = express.Router();
 
